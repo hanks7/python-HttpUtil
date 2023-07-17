@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "msg": "",
+  "data": {
+    "rechargeExplainUrl": "http://file.zijiapuzi.com/zsdl/recharge/recharge.html",
+    "count": "1",
+    "rechargeStatistics": "共有1人，一共充电5度",
+    "isRecharge": null,
+    "creditScore": 200,
+    "electric": 0,
+    "pageResult": {
+      "datas": [
+        {
+          "chapterRewardId": 2074361161304244,
+          "rewardId": 1022780160200971,
+          "rewardedId": 1022781133279698,
+          "rewardElectricity": 5,
+          "createTime": 1689033965000,
+          "userNickName": null,
+          "userHeadUrl": "http://file.zijiapuzi.com/zsdl/head.png"
+        }
+      ],
+      "totalElements": 1,
+      "totalPages": 1,
+      "page": 1,
+      "size": 10
+    },
+    "isPayPassword": 1
+  }
+}
