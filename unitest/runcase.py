@@ -1,7 +1,4 @@
 import unittest
-# from MyTestCase1 import TestMyCase1
-# from MyTestCase2 import TestMyCase2
-# import MyTestCase3_Module
 import os
 
 from unitest.util.HTMLTestRunner import HTMLTestRunner
