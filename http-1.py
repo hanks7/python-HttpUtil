@@ -24,13 +24,10 @@ def on_post(s, body1):
     return json_load
 
 
-url = 'http://mico.zsdlpro.com/social/chapterreward/selectChapterRewardRecordList'
+url = 'http://testzsdl.zijiapuzi.com/social/exam/selectLatelyBookList'
 body = '''{
-   "chapterId": 1796041106454046,
-   "page": 1,
-   "rows": 10,
-   "userId": 634810
- }'''
-
-for i in range(10):
-    on_post(url, body)
+  "page": 1,
+  "rows": 10,
+  "userId": 107
+}'''
+on_post(url, body)
