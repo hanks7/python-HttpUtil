@@ -14,7 +14,8 @@ def on_post(s, body1):
     json_load = json.loads(response.text)
 
     # 序列化后再打印
-    print(json.dumps(json_load, indent=2, ensure_ascii=False))
+    json_data = json.dumps(json_load, indent=2, ensure_ascii=False)
+    print(f"response = {json_data}")
 
     # <editor-fold desc="保存结果">
     save_jsonfile = r"test.json"
@@ -24,10 +25,11 @@ def on_post(s, body1):
     return json_load
 
 
-url = 'http://testzsdl.zijiapuzi.com/social/exam/selectLatelyBookList'
+url = 'http://testzsdl.zijiapuzi.com/shop/order/selectWuLiuDetail'
 body = '''{
-  "page": 1,
-  "rows": 10,
-  "userId": 107
+  "orderId": 202306011425150097
 }'''
+
+print(f"url = '{url}'")
+print(f"body = '''{body}'''")
 on_post(url, body)
