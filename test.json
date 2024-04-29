@@ -1,5 +1,57 @@
 {
-  "status": 500,
-  "msg": "操作失败，系统繁忙",
-  "data": null
+  "status": 200,
+  "msg": "",
+  "data": {
+    "updateType": 0,
+    "versionCode": 10,
+    "versionName": "2.0.0",
+    "appUrl": "http://file.zijiapuzi.com/zsdl/file/apk/zhishudali-2.0.0-release.apk",
+    "updateNotice": "2.0上线啦",
+    "showUpdate": true,
+    "apkFileEncode": "6C2F04D6D27BDE5DD9B020C1706E3FD0",
+    "androidChannelList": [
+      {
+        "id": 1,
+        "channelName": "xiaomi",
+        "appstoreUpdate": 0,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      },
+      {
+        "id": 2,
+        "channelName": "honor",
+        "appstoreUpdate": 1,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      },
+      {
+        "id": 3,
+        "channelName": "huawei",
+        "appstoreUpdate": 0,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      },
+      {
+        "id": 4,
+        "channelName": "oppo",
+        "appstoreUpdate": 0,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      },
+      {
+        "id": 5,
+        "channelName": "vivo",
+        "appstoreUpdate": 0,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      },
+      {
+        "id": 6,
+        "channelName": "yingyongbao",
+        "appstoreUpdate": 0,
+        "fileEncode": "sdsd3243243",
+        "updateTime": 1714378517000
+      }
+    ]
+  }
 }

@@ -25,15 +25,30 @@ def on_post(s, body1):
     return json_load
 
 
-# base_url = 'http://testzsdl.zijiapuzi.com'
+# url = 'http://testzsdl.zijiapuzi.com/event/explore/selectExploreList'
+# body = '''{
+#   "city": "上海市",
+#   "origin": "121.5762,31.178",
+#   "page": 1,
+#   "type": 0,
+#   "rows": 10,
+#   "userId": 634810  341102-1990-0801-0616
+# }'''
+
+
+base_url = 'http://testzsdl.zijiapuzi.com'
 # base_url = 'http://mico.zsdlpro.com/'
 
-
-url = 'http://testzsdl.zijiapuzi.com/base/app/android/checkVersion'
+url = '%s/base/app/android/checkVersion' % base_url
 body = '''{
   "isFirstStart": 0,
   "userId": 0
 }'''
+# url = 'http://testzsdl.zijiapuzi.com/base/app/android/checkVersion'
+# body = '''{
+#   "isFirstStart": 0,
+#   "userId": 0
+# }'''
 
 print(f"url = '{url}'")
 print(f"body = '''{body}'''")
