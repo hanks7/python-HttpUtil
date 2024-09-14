@@ -36,19 +36,25 @@ def on_post(s, body1):
 # }'''
 
 
-base_url = 'http://testzsdl.zijiapuzi.com'
-# base_url = 'http://mico.zsdlpro.com/'
-
-url = '%s/base/app/android/checkVersion' % base_url
-body = '''{
-  "isFirstStart": 0,
-  "userId": 0
-}'''
-# url = 'http://testzsdl.zijiapuzi.com/base/app/android/checkVersion'
+# base_url = 'http://testzsdl.zijiapuzi.com'
+# # base_url = 'http://mico.zsdlpro.com/'
+#
+# url = '%s/base/app/android/checkVersion' % base_url
 # body = '''{
 #   "isFirstStart": 0,
 #   "userId": 0
 # }'''
+
+url = 'http://testzsdl.zijiapuzi.com/event/explore/selectExploreList'
+body = '''{
+      "city": "北京市",
+      "origin": "",
+      "page": 1,
+      "type": 0,
+      "rows": 10,
+      "userId": 634810
+    }'''
+
 
 print(f"url = '{url}'")
 print(f"body = '''{body}'''")
